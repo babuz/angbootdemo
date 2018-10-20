@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface BikesService {
     List<Bike> list();
-    Bike findBikeById(Integer id);
+    Bike findBikeById(long id);
     Bike updateBikeDetail(Bike bike);
     void addNewBikeDetail(Bike bike);
 }
